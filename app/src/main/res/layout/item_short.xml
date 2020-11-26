@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/head_Short"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/back">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/name_Short"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head_Short"
+            android:text="哈哈哈"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/comment_Short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="虽说只有这简简单单的一行代码，但大家可能不知道的是，Glide在背后帮我们默默执行了成吨的工作。这个形容词我想了很久，因为我觉得用非常多这个形容词不足以描述Glide背后的工作量"
+            android:layout_below="@id/name_Short"
+            android:layout_marginLeft="60dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="5sp">
+
+        </TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white">
+
+    </TextView>
+
+</LinearLayout>

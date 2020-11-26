@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/paper_item"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+
+        <TextView
+            android:id="@+id/titleArticle"
+            android:layout_width="224sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="16sp"
+            android:layout_marginTop="35sp"
+            android:textStyle="bold"
+            android:text="小事·怀孕，怕吗？"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:id="@+id/viceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_below="@id/titleArticle"
+            android:layout_marginTop="5sp"
+            android:text="VOL·1244"
+            android:layout_marginLeft="15sp">
+
+        </TextView>
+        <ImageView
+            android:id="@+id/imageTitle"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25sp"
+            android:layout_marginRight="15sp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/everyday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viceTitle"
+            android:text=""
+            android:textSize="10sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="10sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Context">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<WebView
+    android:id="@+id/webView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/under">
+
+</WebView>
+
+
+
+
+
+
+        <RelativeLayout
+            android:background="#F2F2F2"
+            android:id="@+id/under"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="50sp">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="20sp"
+                android:src="@drawable/back">
+                
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/verticalLine"
+                android:layout_width="60sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:layout_toRightOf="@id/back"
+                android:src="@drawable/line" >
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/comment"
+                android:layout_toRightOf="@id/verticalLine"
+                android:layout_marginTop="10sp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/commentNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/comment"
+                android:text="0"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="6sp"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
